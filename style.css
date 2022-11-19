@@ -1,3 +1,25 @@
 h1, h2 {
   font-family: Lato;
 }
+
+header {
+  font-size: xx-large;
+  background-color: rgb(211, 210, 183);
+  margin: 15px;
+  padding: 5%;
+  border-style: dashed;
+}
+
+#autor-info {
+  padding: 1%;
+  background-color:rgb(211, 210, 183);
+  font-size: medium;
+
+  border-style: dotted;
+}
+
+footer {
+  background-color: rgb(211, 210, 183);
+  font-size:large;
+  border-style: solid;
+}
