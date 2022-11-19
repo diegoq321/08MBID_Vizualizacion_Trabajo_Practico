@@ -17,7 +17,7 @@ body {
 
 #autor-info, #intro, #objetivo,
 #audiencia, #info-tools,
-#conclusion {
+#conclusion, #vars {
   padding: 1%;
   background-color:rgb(211, 210, 183);
   font-size: medium;
