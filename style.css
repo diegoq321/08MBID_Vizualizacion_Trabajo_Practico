@@ -10,15 +10,12 @@ header {
   border-style: dashed;
 }
 
-#intro {
-
-}
 
 body {
   background-color: rgb(232, 235, 218);
 }
 
-#autor-info, #intro {
+#autor-info, #intro, #objetivo, #audiencia {
   padding: 1%;
   background-color:rgb(211, 210, 183);
   font-size: medium;
