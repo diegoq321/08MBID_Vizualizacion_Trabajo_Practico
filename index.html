@@ -21,6 +21,10 @@
 
     <strong>URL al cuaderno en Colab: </strong><a href="https://colab.research.google.com/drive/1m-1Iu6QAP8FK8OGV98KEQIw_4cPD7FIB?usp=sharing" target="blank">https://colab.research.google.com/drive/1m-1Iu6QAP8FK8OGV98KEQIw_4cPD7FIB?usp=sharing</a> <br>
 
+    <strong>URL a la matriz de datos de Google Sheets: </strong><a href="https://docs.google.com/spreadsheets/d/1WZNaSYucXzSqbQGxAuUfbmOETEGhWz7xTQ1LRDoN19M/edit?usp=sharing" target="blank">https://docs.google.com/spreadsheets/d/1WZNaSYucXzSqbQGxAuUfbmOETEGhWz7xTQ1LRDoN19M/edit?usp=sharing</a> <br>
+    
+    <strong>URL al cuadro de mando en DataStudio: </strong><a href="https://datastudio.google.com/u/0/reporting/e3627dc1-491f-4797-8995-a664e7db5d4e/page/bSH8C/edit" target="blank">https://datastudio.google.com/u/0/reporting/e3627dc1-491f-4797-8995-a664e7db5d4e/page/bSH8C/edit</a> <br>
+    
     <strong>Fecha: </strong>19/11/2022 <br>
     
   </div>
@@ -64,20 +68,82 @@
 
     <h3>Resultados</h3>  
 
+    <!-- GRAFICO DE SECTORES -->
+
     <p align="justify">Dado que la variable del nivel de instrucción de una persona es una variable cualitativa, el gráfico más apropiado es el de sectores, este permite observar de manera amigable cual es el nivel de instrucción predominante en la población ecuatoriana (figura 1).</p>
 
-    <p align="justify">Se observa que hay un número muy significativo de personas que tienen un nivel de instrucción básica, además, por otro lado las personas con un nivel superior y educación media tienen igual peso en la población y un pequeño número de personas no tiene ningún nivel de instrucción.</p> <br>
+    <p align="justify">Se observa que hay un número muy significativo de personas que tienen un nivel de instrucción básica, además, de igual manera la educación media tiene alrededor de un cuarto de la población del Ecuador, mientras que alrededor del 15% tienen un nivel de instrucción superior, finalmente un pequeño porcentaje de no tiene algún nivel de instrucción o alcanzo máximo la educación de un centro de alfabetización.</p>
 
-    <p><strong>Figura 1:</strong> Gráfico de sectores del nivel de instrucción de la poblacion ecuatoriana</p>
+    <p><strong>Figura 1:</strong> Gráfico de sectores del nivel de instrucción de la poblacion ecuatoriana (Google Charts)</p>
     <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ3ArqdwoGPSYnyTH6jvoMB7u2NuBN9gh8s9cRnwA3LwkP3E9piSAJC5kbJZYR-vt6K9vbegYPUKF_f/pubchart?oid=1340325909&amp;format=interactive"></iframe>
+    <br>
+
+    <br>
+    
+    <!-- CUADRO DE MANDO -->
+
+    <p>El cuadro de mando refleja información del sueldo medio desglosado por nivel de instrucción y sexo, así mismo se observa como esta distribuido la condición de actividad de la población y un grafico que se enfoca en expresar el ingreso medio de hombres y mujeres de manera general (figura 3).</p>
+
+    <p>En la información obtenida del cuadro de mando se observa que en todos los niveles de instrucción a excepción los hombres siempre tienen un sueldo mas alto que el de las mujeres excepto en el caso de que no se tenga ningún nivel de instrucción, en esos casos el ingreso de los hombres es inferior al de las mujeres, asimismo se puede decir que el ingreso medio aumenta a medida que una persona tiene un nivel de educación más elevado.</p>
+
+    <p>Este grafico es interactivo ya que se puede hacer click en las secciones de cada componente individual del grafico para obtener información específica del mismo, se combina la información numérica con la cualitativa paradesarrollar un grafico mas explicativo.</p>
+
+    <p><strong>Figura 2: </strong>Cuadro de mando (Google Data Studio)</p>    
+    <iframe width="100%" height="500" src="https://datastudio.google.com/embed/reporting/e3627dc1-491f-4797-8995-a664e7db5d4e/page/bSH8C" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+    <!-- GRAFICO DE DISPERSION -->
+
+    <p>En este caso el diagrama de dispersión es usado porque la información que se tiene es numérica, además de que se desea describir la relación de una variable dependiente, en este caso el ingreso, frente a una variable dependiente que es el ingreso percibido por los ecuatorianos (figura 3).</p>
+
+    <p>En cuanto al comportamiento de los ingresos de la población frente a las horas de trabajo principal se observa un comportamiento creciente, es decir, entre mayor sea el número de horas de trabajo principal el ingreso de los habitantes será mayor, de esta manera se puede incluso realizar un análisis predictivo mediante una relación lineal ya que también se puede observar que el comportamiento de la relación es lineal.</p>
+
+    <p><strong>Figura 3: </strong>Gráfico de dispersión de las horas de trabajo principal vs ingreso laboral percibido (Google Charts)</p> 
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ3ArqdwoGPSYnyTH6jvoMB7u2NuBN9gh8s9cRnwA3LwkP3E9piSAJC5kbJZYR-vt6K9vbegYPUKF_f/pubchart?oid=77009941&amp;format=interactive"></iframe>
+    <br>
+
+    <!-- LINEA DE TENDENCIA DE LOS DATOS -->
+
+    <p>Como se puede observar en la figura 4, la línea de tendencia es creciente, lo que apoya la creencia de que existe una relación entre el ingreso percibido y el número de horas de trabajo principal de la población, adicionalmente la relación entre ambas variables es directa por lo que efectivamente mientras más horas trabaja una persona, más será su ingreso medio  percibido.</p>
+
+    <p><strong>Figura 4: </strong>Linea de tendencia del ingreso percibido y las horas de trabajo principal (DataWrapper)</p> 
+    <iframe src="https://datawrapper.dwcdn.net/Xnmg4/1/" frameborder="0" width="50%" height="500"></iframe>
 
   </div>
+  <br>
 
+  <!-- CONCLUSION -->
 
+  <div id="conclusion">
+    <h3>Conlusión</h3>
+    <ul>
+      <li>Aparentemente la desigualdad entre hombres y mujeres no es demasiada de manera general, sin embargo realizando un análisis en conjunto con el nivel de instrucción se pudo observar que en ciertos aspectos los hombres tienen una diferencia notable en el salario en comparación con las mujeres, por lo que yendo mas a fondo si existe una desigualdad en el ingreso percibido.</li>
+
+      <li>En cuanto al nivel educativo también se pudo observar que las personas tienen una mejor paga tanto en el caso de hombres como en mujeres, por lo que efectivamente se puede decir que un nivel educativo alto da mas oportunidad a obtener un mejor ingreso.</li>
+
+      <li>De igual manera en el caso de las horas de trabajo, existe una relación entre horas de trabajo principal y el ingreso que percibe cada persona dado que se observa una tendencia creciente, asimismo la línea de tendencia confirma este comportamiento lineal y creciente expresando que en casos normales, a mayor sea el número de horas de trabajo mayor será el sueldo percibido. </li>
+    </ul>
+  </div>
+  <br>
+
+  <!-- HERRAMIENTAS UTILIZADAS -->
+
+  <div id="info-tools">
+    <h3>Herramientas utilizadas</h3>
+    <ul>
+      <li><strong>Google Charts: </strong>Es una API que nos permite, mediante una petición http a esta, generar una imagen dinámica de tipo PNG que podemos colocar en cualquiera de nuestras páginas web.</li>
+      <li><strong>Datawrapper: </strong>Es una herramienta de visualización en línea con la que todo el mundo pueden crear gráficos, mapas y tablas.</li>
+      <li><strong>Google Data Studio: </strong>Es una herramienta gratuita que convierte tus datos en informes y paneles claros, totalmente personalizables y fáciles de consultar y compartir.</li>
+    </ul>
+  </div>
+  <br>
+
+  <!-- PIE DE PAGINA -->
 
   <br>
   <footer>
     <center>Actividad práctica de Visualización de datos</center>
+
+    <p id="pie">La información presentada para este trabajo ha sido obtenida de una encuesta de empleo desempleo y subempleo del Ecuador llamada ENEMDU, la cual se puede descargar del siguiente link <a href="https://www.ecuadorencifras.gob.ec/enemdu-2021/" target="blank">https://www.ecuadorencifras.gob.ec/enemdu-2021/</a> sin embargo dado la base de datos descargable tiene un número extenso de variables, la data simplificada y usada para este trabajo se puede hallar en el siguiente link <a href="https://docs.google.com/spreadsheets/d/1WZNaSYucXzSqbQGxAuUfbmOETEGhWz7xTQ1LRDoN19M/edit?usp=sharing" target="blank">https://docs.google.com/spreadsheets/d/1WZNaSYucXzSqbQGxAuUfbmOETEGhWz7xTQ1LRDoN19M/edit?usp=sharing</a> que de igual manera se puede encontrar en el encabezado del trabajo.</p>
   </footer>
 
 </body>

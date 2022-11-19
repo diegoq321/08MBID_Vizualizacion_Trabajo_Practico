@@ -15,7 +15,9 @@ body {
   background-color: rgb(232, 235, 218);
 }
 
-#autor-info, #intro, #objetivo, #audiencia {
+#autor-info, #intro, #objetivo,
+#audiencia, #info-tools,
+#conclusion {
   padding: 1%;
   background-color:rgb(211, 210, 183);
   font-size: medium;
@@ -27,6 +29,10 @@ body {
   background-color:rgb(211, 210, 183);
   font-size: medium;
   border-style: dotted;
+}
+
+#pie {
+  font-size: small;
 }
 
 footer {
